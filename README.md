@@ -1,1 +1,1 @@
-# jug
+# Example code for JUG talks
