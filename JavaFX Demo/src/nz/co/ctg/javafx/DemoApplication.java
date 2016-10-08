@@ -15,6 +15,9 @@ public class DemoApplication extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		primaryStage.setScene(new Scene(new BorderPane(new Label("JavaFX Demo"))));
+		primaryStage.setTitle("JavaFX Demo");
+		primaryStage.setWidth(800);
+		primaryStage.setHeight(600);
 		primaryStage.show();
 	}
 
