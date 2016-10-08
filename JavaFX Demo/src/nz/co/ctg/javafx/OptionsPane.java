@@ -5,8 +5,8 @@ import javafx.scene.layout.BorderPane;
 
 public class OptionsPane extends BorderPane {
   
-  public OptionsPane() {
-    setTop(new Label("Options"));
+  public OptionsPane(String title) {
+    setTop(new Label(title));
   }
   
 }

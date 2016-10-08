@@ -12,7 +12,7 @@ public class DemoApplication extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		primaryStage.setScene(new Scene(new OptionsPane()));
+		primaryStage.setScene(new Scene(new OptionsPane("Options")));
 		primaryStage.setTitle("JavaFX Demo");
 		primaryStage.setWidth(800);
 		primaryStage.setHeight(600);
