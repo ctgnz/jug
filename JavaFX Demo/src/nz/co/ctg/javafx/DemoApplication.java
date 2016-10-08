@@ -2,6 +2,7 @@ package nz.co.ctg.javafx;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
@@ -13,7 +14,9 @@ public class DemoApplication extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		primaryStage.setScene(new Scene(new BorderPane()));
+		BorderPane pane = new BorderPane();
+		pane.setTop(new Label("Options"));
+    primaryStage.setScene(new Scene(pane));
 		primaryStage.setTitle("JavaFX Demo");
 		primaryStage.setWidth(800);
 		primaryStage.setHeight(600);
