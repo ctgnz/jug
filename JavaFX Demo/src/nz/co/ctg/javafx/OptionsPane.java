@@ -11,6 +11,7 @@ public class OptionsPane extends BorderPane {
     setTop(new Label(title));
     GridPane form = new GridPane();
     form.addRow(0, new Label("Audio"), new CheckBox());
+    form.addRow(1, new Label("Music"), new CheckBox());
     setCenter(form);
   }
   
