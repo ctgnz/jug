@@ -14,7 +14,7 @@ public class PongFX extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		OptionsPane options = new OptionsPane("Options");
     primaryStage.setScene(new Scene(options));
-		primaryStage.setTitle("Pong");
+		primaryStage.setTitle("PongFX");
 		primaryStage.setWidth(800);
 		primaryStage.setHeight(600);
 		primaryStage.show();
