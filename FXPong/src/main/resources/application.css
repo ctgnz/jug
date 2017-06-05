@@ -1,0 +1,30 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.pong {
+	-fx-background-color: black;
+	-fx-border-color: blue;
+	-fx-border-width: 1px;
+}
+
+.puck {
+	-fx-background-color: red;
+	-fx-fill: red;
+}
+
+.paddle {
+	-fx-fill: yellow;
+	-fx-border-color: cyan;
+	-fx-border-width: 2px;
+}
+
+.halfway-line {
+	-fx-stroke: white;
+	-fx-stroke-line-cap: butt; 
+	-fx-stroke-dash-array: 12 18;
+	-fx-stroke-width: 12px;
+}
+
+.arena {
+	-fx-border-color: white;
+	-fx-border-width: 8px;
+}
